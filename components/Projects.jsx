@@ -1,11 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 import ProjectItem from "./ProjectItem";
-// import MultiPost from "../public/assets/projects/MultiPost.png";
-// import Geass from "../public/assets/projects/Geass.png";
-// import Goat from "../public/assets/projects/goatapp.png";
-// import AskDoc from "../public/assets/projects/askdocai.png";
+
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
