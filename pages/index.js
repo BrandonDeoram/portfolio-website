@@ -11,6 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Sanjay Deoram</title>
+        <meta name="description" content="Software Developer Bridging Technology with Business Needs" />
         <link rel="icon" href="assets/bdog.jpg" />
       </Head>
     <Main />
