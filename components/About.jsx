@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AboutImg from "../public/assets/about.jpg";
 import bdog from "../public/assets/bdog.jpg";
+
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
@@ -27,7 +28,7 @@ const About = () => {
             three months.
           </p>
           <p className="py-2 text-gray-600">
-            🎥 Outside of my professional endeavors, I'm
+            🎥 Outside of my professional endeavors, I&apos;m
             passionate about sharing my knowledge and experiences with the
             broader community. You can find me documenting my coding projects
             and insights on YouTube, where I strive to demystify the world of
