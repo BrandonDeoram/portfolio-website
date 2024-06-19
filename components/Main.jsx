@@ -47,7 +47,7 @@ const Main = () => {
               </div>
             </Link>
             <div>
-              <Link href="/resume.pdf" passHref>
+              <Link href="/Resume.pdf" passHref>
                 <a download>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />

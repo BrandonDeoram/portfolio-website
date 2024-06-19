@@ -140,7 +140,7 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
+              <Link href="/Resume">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Resume
                 </li>
