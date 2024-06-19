@@ -1,15 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
-import MultiPost from "../public/assets/projects/MultiPost.png";
-import Geass from "../public/assets/projects/Geass.png";
-import Goat from "../public/assets/projects/goatapp.png";
-import AskDoc from "../public/assets/projects/askdocai.png";
+// import MultiPost from "../public/assets/projects/MultiPost.png";
+// import Geass from "../public/assets/projects/Geass.png";
+// import Goat from "../public/assets/projects/goatapp.png";
+// import AskDoc from "../public/assets/projects/askdocai.png";
 const Projects = () => {
   return (
     <div id="projects" className="w-full">
@@ -21,25 +17,25 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="MultiPost"
-            backgroundImg={MultiPost}
+            backgroundImg="/assets/projects/multipost.png"
             projectUrl="https://github.com/BrandonDeoram/MultiPost"
             tech="Created a video management system with integrated APIs for seamless uploads to YouTube and Instagram, coupled with a real-time analytics dashboard"
           />
           <ProjectItem
             title="AskDocAI"
-            backgroundImg={AskDoc}
+            backgroundImg="/assets/projects/askdocai.png"
             projectUrl="https://github.com/BrandonDeoram/AskDocAI"
             tech="AskDocAi is a web application that enables users to upload documents and interact with ChatGPT, a powerful AI language model, to gain insights and answers related to the content of those documents"
           />
           <ProjectItem
             title="Geass Anime Website"
-            backgroundImg={Geass}
+            backgroundImg="/assets/projects/geass.png"
             projectUrl="https://github.com/BrandonDeoram/GeassAnimeWebsite"
             tech="Geass is an anime watch list app designed to enhance your anime viewing experience"
           />
           <ProjectItem
             title="GoatApp"
-            backgroundImg={Goat}
+            backgroundImg="/assets/projects/goatapp.png"
             projectUrl="https://github.com/BrandonDeoram/GoatApp"
             tech="A Flutter and Dart e-commerce project allowing price comparison between StockX and GOAT"
           />

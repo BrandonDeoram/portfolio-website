@@ -106,7 +106,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <a>
-                  <Image src={NavLogo} width="87" height="35" alt="/" />
+                  
                 </a>
               </Link>
               <div
@@ -116,11 +116,7 @@ const Navbar = () => {
                 <AiOutlineClose />
               </div>
             </div>
-            <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
-                Let&#39;s build something legendary together
-              </p>
-            </div>
+            
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
