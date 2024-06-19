@@ -65,7 +65,7 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <div>
-                <Link href="/resume.pdf" passHref>
+                <Link href="/Resume.pdf" passHref>
                   <a download>
                     Resume
                   </a>
